@@ -8,7 +8,6 @@ import com.kartik.grevocab.base.SingleLiveEvent
 import com.kartik.grevocab.repo.StocksRepo
 import com.kartik.grevocab.utility.CurrencyUtils
 import com.kartik.grevocab.utility.LoaderState
-import kotlinx.coroutines.delay
 import org.koin.core.component.KoinComponent
 
 class FragmentStocksViewModel(private val preferences: Preferences, private val currencyUtils: CurrencyUtils, val stocksRepo: StocksRepo) : ViewModel(), KoinComponent {
@@ -17,7 +16,6 @@ class FragmentStocksViewModel(private val preferences: Preferences, private val 
 
     suspend fun getStocks(): ArrayList<StockDisplay>? {
         loaderLiveData.value = LoaderState.LOADING
-        delay(3000)
         val response = stocksRepo.getStocks(preferences.getAPIResponse().endpointUrl)
         if (response.isSuccessful) {
             val list = response.body()!!.stocks
