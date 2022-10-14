@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- logical strings end -->
+
+    <string name="app_name">Cash app</string>
+    <string name="HeaderTagLine">Invest in stocks and be rich</string>
+    <string name="ok">Okay!</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+    <string name="api_mode">Api mode</string>
+    <string name="success_empty_response">Success Empty response</string>
+    <string name="api_failure">API Failure</string>
+    <string name="api_success">API Success</string>
+    <string name="settings">Settings</string>
+    <string name="stocks">Stocks</string>
+    <string name="api_error">Error fetching data</string>
+</resources>

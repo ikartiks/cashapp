@@ -1,0 +1,99 @@
+apply plugin: "com.android.library"
+apply plugin: "kotlin-android"
+apply plugin: "kotlin-android-extensions"
+apply from: "../app/ktlint.gradle"
+apply plugin: 'kotlin-kapt'
+
+android {
+    compileSdkVersion 31
+
+    defaultConfig {
+        minSdkVersion 16
+        targetSdkVersion 31
+        multiDexEnabled true
+
+        testInstrumentationRunner "com.kartik.grevocab.api.MockTestAppRunner"
+        consumerProguardFiles "consumer-rules.pro"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            //proguardFiles getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.pro"
+        }
+    }
+
+    buildFeatures{
+        dataBinding = true
+        // for view binding :
+        // viewBinding = true
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_11
+        targetCompatibility JavaVersion.VERSION_11
+    }
+
+    kotlinOptions {
+        jvmTarget = JavaVersion.VERSION_11.toString()
+    }
+    //to run Junit5 / jupiter tests
+    testOptions {
+        unitTests.all {
+            useJUnitPlatform()
+        }
+    }
+    namespace 'com.kartik.grevocab.api'
+}
+
+dependencies {
+
+    implementation fileTree(dir: "libs", include: ["*.jar"])
+    //implementation "org.jetbrains.kotlin:kotlin-stdlib:$versions.kotlin"
+    implementation "androidx.core:core-ktx:$versions.core_ktx"
+
+    implementation "androidx.multidex:multidex:$versions.multidex"
+
+    // for rx retrofit
+    implementation "com.squareup.retrofit2:retrofit:$versions.retrofit"
+    implementation "com.squareup.okhttp3:logging-interceptor:$versions.okhttp_logging_interceptor"
+    implementation "io.reactivex.rxjava3:rxkotlin:$versions.rx_kotlin"
+    implementation "io.reactivex.rxjava3:rxandroid:$versions.rxandroid"
+
+    implementation "com.squareup.retrofit2:adapter-rxjava3:$versions.retrofit_adapter_rxjava3"
+    implementation "com.squareup.retrofit2:converter-gson:$versions.retrofit_converter_gson"
+    implementation "androidx.legacy:legacy-support-v4:$versions.legacy_support_v4"
+    implementation "androidx.lifecycle:lifecycle-extensions:$versions.lifecycle_extensions"
+    implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:$versions.lifecycle_viewmodel_ktx"
+
+    // Koin for Android
+    implementation "io.insert-koin:koin-android:$versions.koin"
+
+    //Coroutines start
+    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-core:$versions.coroutines"
+    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:$versions.coroutines"
+    //maybe later
+    //https://github.com/Kotlin/kotlinx.coroutines
+    //Coroutines end
+
+    // Mock retrofit dependancies
+    debugImplementation "com.squareup.retrofit2:retrofit-mock:$versions.retrofit_mock"
+
+    /** New tests start */
+
+    //junit 5
+    testImplementation("org.junit.jupiter:junit-jupiter-api:$versions.jupiter_junit_5")
+    testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:$versions.jupiter_junit_5")
+
+    //koin
+    testImplementation "io.insert-koin:koin-test:$versions.koin"
+
+
+    // Mockwebserver dependency here
+    testImplementation "com.squareup.okhttp3:mockwebserver:$versions.mockwebserver"
+    // Mockwebserver okhttp3-idling-resource dependency here
+    testImplementation "com.jakewharton.espresso:okhttp3-idling-resource:$versions.okhttp3_idling_resource"
+    
+    /** New tests end */
+}
+
+preBuild.dependsOn ktlintFormat

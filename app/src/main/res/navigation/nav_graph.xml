@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/fragmentSplash">
+    <fragment
+        android:id="@+id/fragmentWordList"
+        android:name="com.kartik.grevocab.FragmentStocks"
+        tools:layout="@layout/fragment_word_test_list">
+        <action
+            android:id="@+id/action_fragmentWordList_to_fragmentSettings"
+            app:destination="@id/fragmentSettings" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentSettings"
+        android:name="com.kartik.grevocab.FragmentSettings"
+        android:label="FragmentSettings"
+        tools:layout="@layout/fragment_settings" />
+    <fragment
+        android:id="@+id/fragmentSplash"
+        android:name="com.kartik.grevocab.FragmentSplash"
+        tools:layout="@layout/fragment_splash">
+        <action
+            android:id="@+id/action_fragmentSplash_to_fragmentWordList"
+            app:destination="@id/fragmentWordList"
+            app:popUpTo="@id/fragmentSplash"
+            app:popUpToInclusive="true" />
+    </fragment>
+</navigation>

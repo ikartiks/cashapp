@@ -1,0 +1,2515 @@
+[
+    {
+        "id": 1,
+        "isCorrect": false,
+        "option": "arrogance",
+        "optionNo": 1,
+        "testQuestionsId": 1
+    },
+    {
+        "id": 2,
+        "isCorrect": false,
+        "option": "hubris",
+        "optionNo": 1,
+        "testQuestionsId": 1
+    },
+    {
+        "id": 3,
+        "isCorrect": true,
+        "option": "avarice",
+        "optionNo": 1,
+        "testQuestionsId": 1
+    },
+    {
+        "id": 4,
+        "isCorrect": false,
+        "option": "haughtiness",
+        "optionNo": 1,
+        "testQuestionsId": 1
+    },
+    {
+        "id": 5,
+        "isCorrect": true,
+        "option": "cupidity",
+        "optionNo": 1,
+        "testQuestionsId": 1
+    },
+    {
+        "id": 6,
+        "isCorrect": false,
+        "option": "egotism",
+        "optionNo": 1,
+        "testQuestionsId": 1
+    },
+    {
+        "id": 7,
+        "isCorrect": true,
+        "option": "bolster",
+        "optionNo": 1,
+        "testQuestionsId": 2
+    },
+    {
+        "id": 8,
+        "isCorrect": false,
+        "option": "boulder",
+        "optionNo": 1,
+        "testQuestionsId": 2
+    },
+    {
+        "id": 9,
+        "isCorrect": true,
+        "option": "buttress",
+        "optionNo": 1,
+        "testQuestionsId": 2
+    },
+    {
+        "id": 10,
+        "isCorrect": false,
+        "option": "curb",
+        "optionNo": 1,
+        "testQuestionsId": 2
+    },
+    {
+        "id": 11,
+        "isCorrect": false,
+        "option": "restrain",
+        "optionNo": 1,
+        "testQuestionsId": 2
+    },
+    {
+        "id": 12,
+        "isCorrect": false,
+        "option": "constraint",
+        "optionNo": 1,
+        "testQuestionsId": 2
+    },
+    {
+        "id": 13,
+        "isCorrect": false,
+        "option": "orthodox",
+        "optionNo": 1,
+        "testQuestionsId": 3
+    },
+    {
+        "id": 14,
+        "isCorrect": true,
+        "option": "partisan",
+        "optionNo": 1,
+        "testQuestionsId": 3
+    },
+    {
+        "id": 15,
+        "isCorrect": false,
+        "option": "foolhardy",
+        "optionNo": 1,
+        "testQuestionsId": 3
+    },
+    {
+        "id": 16,
+        "isCorrect": false,
+        "option": "rational",
+        "optionNo": 2,
+        "testQuestionsId": 3
+    },
+    {
+        "id": 17,
+        "isCorrect": false,
+        "option": "reasonable",
+        "optionNo": 2,
+        "testQuestionsId": 3
+    },
+    {
+        "id": 18,
+        "isCorrect": true,
+        "option": "unprejudiced",
+        "optionNo": 2,
+        "testQuestionsId": 3
+    },
+    {
+        "id": 19,
+        "isCorrect": false,
+        "option": "custody",
+        "optionNo": 1,
+        "testQuestionsId": 4
+    },
+    {
+        "id": 20,
+        "isCorrect": true,
+        "option": "remission",
+        "optionNo": 1,
+        "testQuestionsId": 4
+    },
+    {
+        "id": 21,
+        "isCorrect": true,
+        "option": "abeyance",
+        "optionNo": 1,
+        "testQuestionsId": 4
+    },
+    {
+        "id": 22,
+        "isCorrect": false,
+        "option": "conviction",
+        "optionNo": 1,
+        "testQuestionsId": 4
+    },
+    {
+        "id": 23,
+        "isCorrect": false,
+        "option": "levy",
+        "optionNo": 1,
+        "testQuestionsId": 4
+    },
+    {
+        "id": 24,
+        "isCorrect": false,
+        "option": "charge",
+        "optionNo": 1,
+        "testQuestionsId": 4
+    },
+    {
+        "id": 25,
+        "isCorrect": false,
+        "option": "Objurgate",
+        "optionNo": 1,
+        "testQuestionsId": 5
+    },
+    {
+        "id": 26,
+        "isCorrect": true,
+        "option": "equivocate",
+        "optionNo": 1,
+        "testQuestionsId": 5
+    },
+    {
+        "id": 27,
+        "isCorrect": false,
+        "option": "berate",
+        "optionNo": 1,
+        "testQuestionsId": 5
+    },
+    {
+        "id": 28,
+        "isCorrect": false,
+        "option": "vituperate",
+        "optionNo": 1,
+        "testQuestionsId": 5
+    },
+    {
+        "id": 29,
+        "isCorrect": false,
+        "option": "castigate",
+        "optionNo": 1,
+        "testQuestionsId": 5
+    },
+    {
+        "id": 30,
+        "isCorrect": true,
+        "option": "abnegate",
+        "optionNo": 1,
+        "testQuestionsId": 5
+    },
+    {
+        "id": 31,
+        "isCorrect": false,
+        "option": "Spartan",
+        "optionNo": 1,
+        "testQuestionsId": 6
+    },
+    {
+        "id": 32,
+        "isCorrect": false,
+        "option": "ascetic",
+        "optionNo": 1,
+        "testQuestionsId": 6
+    },
+    {
+        "id": 33,
+        "isCorrect": false,
+        "option": "austere",
+        "optionNo": 1,
+        "testQuestionsId": 6
+    },
+    {
+        "id": 34,
+        "isCorrect": true,
+        "option": "sybaritic",
+        "optionNo": 1,
+        "testQuestionsId": 6
+    },
+    {
+        "id": 35,
+        "isCorrect": false,
+        "option": "monastic",
+        "optionNo": 1,
+        "testQuestionsId": 6
+    },
+    {
+        "id": 36,
+        "isCorrect": false,
+        "option": "abstinent",
+        "optionNo": 1,
+        "testQuestionsId": 6
+    },
+    {
+        "id": 37,
+        "isCorrect": true,
+        "option": "voluptuous",
+        "optionNo": 1,
+        "testQuestionsId": 6
+    },
+    {
+        "id": 38,
+        "isCorrect": false,
+        "option": "zealous",
+        "optionNo": 1,
+        "testQuestionsId": 7
+    },
+    {
+        "id": 39,
+        "isCorrect": true,
+        "option": "banal",
+        "optionNo": 1,
+        "testQuestionsId": 7
+    },
+    {
+        "id": 40,
+        "isCorrect": false,
+        "option": "fervours",
+        "optionNo": 1,
+        "testQuestionsId": 7
+    },
+    {
+        "id": 41,
+        "isCorrect": false,
+        "option": "garish",
+        "optionNo": 1,
+        "testQuestionsId": 7
+    },
+    {
+        "id": 42,
+        "isCorrect": true,
+        "option": "hoary",
+        "optionNo": 1,
+        "testQuestionsId": 7
+    },
+    {
+        "id": 43,
+        "isCorrect": false,
+        "option": "tawdry",
+        "optionNo": 1,
+        "testQuestionsId": 7
+    },
+    {
+        "id": 44,
+        "isCorrect": false,
+        "option": "high",
+        "optionNo": 1,
+        "testQuestionsId": 8
+    },
+    {
+        "id": 45,
+        "isCorrect": true,
+        "option": "wearied",
+        "optionNo": 1,
+        "testQuestionsId": 8
+    },
+    {
+        "id": 46,
+        "isCorrect": false,
+        "option": "discerning",
+        "optionNo": 1,
+        "testQuestionsId": 8
+    },
+    {
+        "id": 47,
+        "isCorrect": true,
+        "option": "invigorate",
+        "optionNo": 2,
+        "testQuestionsId": 8
+    },
+    {
+        "id": 48,
+        "isCorrect": false,
+        "option": "spurn",
+        "optionNo": 2,
+        "testQuestionsId": 8
+    },
+    {
+        "id": 49,
+        "isCorrect": false,
+        "option": "drain",
+        "optionNo": 2,
+        "testQuestionsId": 8
+    },
+    {
+        "id": 50,
+        "isCorrect": false,
+        "option": "steadfast",
+        "optionNo": 1,
+        "testQuestionsId": 9
+    },
+    {
+        "id": 51,
+        "isCorrect": true,
+        "option": "stolid",
+        "optionNo": 1,
+        "testQuestionsId": 9
+    },
+    {
+        "id": 52,
+        "isCorrect": false,
+        "option": "undaunted",
+        "optionNo": 1,
+        "testQuestionsId": 9
+    },
+    {
+        "id": 53,
+        "isCorrect": false,
+        "option": "anger",
+        "optionNo": 2,
+        "testQuestionsId": 9
+    },
+    {
+        "id": 54,
+        "isCorrect": false,
+        "option": "indignation",
+        "optionNo": 2,
+        "testQuestionsId": 9
+    },
+    {
+        "id": 55,
+        "isCorrect": true,
+        "option": "penitence",
+        "optionNo": 2,
+        "testQuestionsId": 9
+    },
+    {
+        "id": 56,
+        "isCorrect": false,
+        "option": "listen to ",
+        "optionNo": 1,
+        "testQuestionsId": 10
+    },
+    {
+        "id": 57,
+        "isCorrect": false,
+        "option": "obey",
+        "optionNo": 1,
+        "testQuestionsId": 10
+    },
+    {
+        "id": 58,
+        "isCorrect": false,
+        "option": "condone",
+        "optionNo": 1,
+        "testQuestionsId": 10
+    },
+    {
+        "id": 59,
+        "isCorrect": false,
+        "option": "heed",
+        "optionNo": 1,
+        "testQuestionsId": 10
+    },
+    {
+        "id": 60,
+        "isCorrect": true,
+        "option": "buck",
+        "optionNo": 1,
+        "testQuestionsId": 10
+    },
+    {
+        "id": 61,
+        "isCorrect": true,
+        "option": "averse",
+        "optionNo": 1,
+        "testQuestionsId": 10
+    },
+    {
+        "id": 62,
+        "isCorrect": false,
+        "option": "magniloquent",
+        "optionNo": 1,
+        "testQuestionsId": 11
+    },
+    {
+        "id": 63,
+        "isCorrect": true,
+        "option": "Abase",
+        "optionNo": 1,
+        "testQuestionsId": 11
+    },
+    {
+        "id": 64,
+        "isCorrect": false,
+        "option": "bombastic",
+        "optionNo": 1,
+        "testQuestionsId": 11
+    },
+    {
+        "id": 65,
+        "isCorrect": false,
+        "option": "fustian",
+        "optionNo": 1,
+        "testQuestionsId": 11
+    },
+    {
+        "id": 66,
+        "isCorrect": false,
+        "option": "stilted",
+        "optionNo": 1,
+        "testQuestionsId": 11
+    },
+    {
+        "id": 67,
+        "isCorrect": true,
+        "option": "promulgate",
+        "optionNo": 1,
+        "testQuestionsId": 11
+    },
+    {
+        "id": 68,
+        "isCorrect": false,
+        "option": "convoluting",
+        "optionNo": 1,
+        "testQuestionsId": 12
+    },
+    {
+        "id": 69,
+        "isCorrect": true,
+        "option": "digressing",
+        "optionNo": 1,
+        "testQuestionsId": 12
+    },
+    {
+        "id": 70,
+        "isCorrect": true,
+        "option": "meandering",
+        "optionNo": 1,
+        "testQuestionsId": 12
+    },
+    {
+        "id": 71,
+        "isCorrect": false,
+        "option": "perplexing",
+        "optionNo": 1,
+        "testQuestionsId": 12
+    },
+    {
+        "id": 72,
+        "isCorrect": false,
+        "option": "bewildering",
+        "optionNo": 1,
+        "testQuestionsId": 12
+    },
+    {
+        "id": 73,
+        "isCorrect": false,
+        "option": "baffling",
+        "optionNo": 1,
+        "testQuestionsId": 12
+    },
+    {
+        "id": 74,
+        "isCorrect": true,
+        "option": "mollycoddles",
+        "optionNo": 1,
+        "testQuestionsId": 13
+    },
+    {
+        "id": 75,
+        "isCorrect": false,
+        "option": "enamors",
+        "optionNo": 1,
+        "testQuestionsId": 13
+    },
+    {
+        "id": 76,
+        "isCorrect": false,
+        "option": "enthralls",
+        "optionNo": 1,
+        "testQuestionsId": 13
+    },
+    {
+        "id": 77,
+        "isCorrect": false,
+        "option": "Is infatuated with",
+        "optionNo": 1,
+        "testQuestionsId": 13
+    },
+    {
+        "id": 78,
+        "isCorrect": true,
+        "option": "cossets",
+        "optionNo": 1,
+        "testQuestionsId": 13
+    },
+    {
+        "id": 79,
+        "isCorrect": false,
+        "option": "believes",
+        "optionNo": 1,
+        "testQuestionsId": 13
+    },
+    {
+        "id": 80,
+        "isCorrect": false,
+        "option": "chagrin",
+        "optionNo": 1,
+        "testQuestionsId": 14
+    },
+    {
+        "id": 81,
+        "isCorrect": false,
+        "option": "genuine",
+        "optionNo": 1,
+        "testQuestionsId": 14
+    },
+    {
+        "id": 82,
+        "isCorrect": true,
+        "option": "ersatz",
+        "optionNo": 1,
+        "testQuestionsId": 14
+    },
+    {
+        "id": 83,
+        "isCorrect": false,
+        "option": "faux",
+        "optionNo": 2,
+        "testQuestionsId": 14
+    },
+    {
+        "id": 84,
+        "isCorrect": true,
+        "option": "veritable",
+        "optionNo": 2,
+        "testQuestionsId": 14
+    },
+    {
+        "id": 85,
+        "isCorrect": false,
+        "option": "imitation",
+        "optionNo": 2,
+        "testQuestionsId": 14
+    },
+    {
+        "id": 86,
+        "isCorrect": false,
+        "option": "deign",
+        "optionNo": 1,
+        "testQuestionsId": 15
+    },
+    {
+        "id": 87,
+        "isCorrect": false,
+        "option": "stoop",
+        "optionNo": 1,
+        "testQuestionsId": 15
+    },
+    {
+        "id": 88,
+        "isCorrect": false,
+        "option": "deride",
+        "optionNo": 1,
+        "testQuestionsId": 15
+    },
+    {
+        "id": 89,
+        "isCorrect": true,
+        "option": "impeach",
+        "optionNo": 1,
+        "testQuestionsId": 15
+    },
+    {
+        "id": 90,
+        "isCorrect": false,
+        "option": "condescend",
+        "optionNo": 1,
+        "testQuestionsId": 15
+    },
+    {
+        "id": 91,
+        "isCorrect": true,
+        "option": "clandestine",
+        "optionNo": 1,
+        "testQuestionsId": 16
+    },
+    {
+        "id": 92,
+        "isCorrect": false,
+        "option": "ancient",
+        "optionNo": 1,
+        "testQuestionsId": 16
+    },
+    {
+        "id": 93,
+        "isCorrect": false,
+        "option": "controversial",
+        "optionNo": 1,
+        "testQuestionsId": 16
+    },
+    {
+        "id": 94,
+        "isCorrect": false,
+        "option": "atavistic",
+        "optionNo": 1,
+        "testQuestionsId": 16
+    },
+    {
+        "id": 95,
+        "isCorrect": true,
+        "option": "arcane",
+        "optionNo": 1,
+        "testQuestionsId": 16
+    },
+    {
+        "id": 96,
+        "isCorrect": false,
+        "option": "archaic",
+        "optionNo": 1,
+        "testQuestionsId": 16
+    },
+    {
+        "id": 97,
+        "isCorrect": false,
+        "option": "reverant",
+        "optionNo": 1,
+        "testQuestionsId": 17
+    },
+    {
+        "id": 98,
+        "isCorrect": true,
+        "option": "tyro",
+        "optionNo": 1,
+        "testQuestionsId": 17
+    },
+    {
+        "id": 99,
+        "isCorrect": false,
+        "option": "sharp",
+        "optionNo": 1,
+        "testQuestionsId": 17
+    },
+    {
+        "id": 100,
+        "isCorrect": true,
+        "option": "lionize",
+        "optionNo": 2,
+        "testQuestionsId": 17
+    },
+    {
+        "id": 101,
+        "isCorrect": false,
+        "option": "iconoclasted",
+        "optionNo": 2,
+        "testQuestionsId": 17
+    },
+    {
+        "id": 102,
+        "isCorrect": false,
+        "option": "vindicated",
+        "optionNo": 2,
+        "testQuestionsId": 17
+    },
+    {
+        "id": 103,
+        "isCorrect": false,
+        "option": "inundated",
+        "optionNo": 1,
+        "testQuestionsId": 18
+    },
+    {
+        "id": 104,
+        "isCorrect": true,
+        "option": "exonerated",
+        "optionNo": 1,
+        "testQuestionsId": 18
+    },
+    {
+        "id": 105,
+        "isCorrect": false,
+        "option": "dissipated",
+        "optionNo": 1,
+        "testQuestionsId": 18
+    },
+    {
+        "id": 106,
+        "isCorrect": true,
+        "option": "exculpated",
+        "optionNo": 1,
+        "testQuestionsId": 18
+    },
+    {
+        "id": 107,
+        "isCorrect": false,
+        "option": "squandered",
+        "optionNo": 1,
+        "testQuestionsId": 18
+    },
+    {
+        "id": 108,
+        "isCorrect": false,
+        "option": "Prof-ligated",
+        "optionNo": 1,
+        "testQuestionsId": 18
+    },
+    {
+        "id": 109,
+        "isCorrect": true,
+        "option": "Qualms",
+        "optionNo": 1,
+        "testQuestionsId": 19
+    },
+    {
+        "id": 110,
+        "isCorrect": false,
+        "option": "conviction",
+        "optionNo": 1,
+        "testQuestionsId": 19
+    },
+    {
+        "id": 111,
+        "isCorrect": false,
+        "option": "credence",
+        "optionNo": 1,
+        "testQuestionsId": 19
+    },
+    {
+        "id": 112,
+        "isCorrect": false,
+        "option": "reservation",
+        "optionNo": 2,
+        "testQuestionsId": 19
+    },
+    {
+        "id": 113,
+        "isCorrect": false,
+        "option": "misgiving",
+        "optionNo": 2,
+        "testQuestionsId": 19
+    },
+    {
+        "id": 114,
+        "isCorrect": true,
+        "option": "credence",
+        "optionNo": 2,
+        "testQuestionsId": 19
+    },
+    {
+        "id": 115,
+        "isCorrect": false,
+        "option": "jaundiced",
+        "optionNo": 1,
+        "testQuestionsId": 20
+    },
+    {
+        "id": 116,
+        "isCorrect": true,
+        "option": "championed",
+        "optionNo": 1,
+        "testQuestionsId": 20
+    },
+    {
+        "id": 117,
+        "isCorrect": false,
+        "option": "inured",
+        "optionNo": 1,
+        "testQuestionsId": 20
+    },
+    {
+        "id": 118,
+        "isCorrect": false,
+        "option": "checkered",
+        "optionNo": 1,
+        "testQuestionsId": 20
+    },
+    {
+        "id": 119,
+        "isCorrect": false,
+        "option": "besotted",
+        "optionNo": 1,
+        "testQuestionsId": 20
+    },
+    {
+        "id": 120,
+        "isCorrect": true,
+        "option": "espoused",
+        "optionNo": 1,
+        "testQuestionsId": 20
+    },
+    {
+        "id": 121,
+        "isCorrect": false,
+        "option": "impassive",
+        "optionNo": 1,
+        "testQuestionsId": 21
+    },
+    {
+        "id": 122,
+        "isCorrect": false,
+        "option": "immutable",
+        "optionNo": 1,
+        "testQuestionsId": 21
+    },
+    {
+        "id": 123,
+        "isCorrect": false,
+        "option": "flippant",
+        "optionNo": 1,
+        "testQuestionsId": 21
+    },
+    {
+        "id": 124,
+        "isCorrect": false,
+        "option": "flippant",
+        "optionNo": 1,
+        "testQuestionsId": 21
+    },
+    {
+        "id": 125,
+        "isCorrect": true,
+        "option": "suave",
+        "optionNo": 1,
+        "testQuestionsId": 21
+    },
+    {
+        "id": 126,
+        "isCorrect": true,
+        "option": "debonair",
+        "optionNo": 1,
+        "testQuestionsId": 21
+    },
+    {
+        "id": 127,
+        "isCorrect": true,
+        "option": "averted",
+        "optionNo": 1,
+        "testQuestionsId": 22
+    },
+    {
+        "id": 128,
+        "isCorrect": false,
+        "option": "resolved",
+        "optionNo": 1,
+        "testQuestionsId": 22
+    },
+    {
+        "id": 129,
+        "isCorrect": true,
+        "option": "precluded",
+        "optionNo": 1,
+        "testQuestionsId": 22
+    },
+    {
+        "id": 130,
+        "isCorrect": false,
+        "option": "occluded",
+        "optionNo": 1,
+        "testQuestionsId": 22
+    },
+    {
+        "id": 131,
+        "isCorrect": false,
+        "option": "expedited",
+        "optionNo": 1,
+        "testQuestionsId": 22
+    },
+    {
+        "id": 132,
+        "isCorrect": false,
+        "option": "stopped",
+        "optionNo": 1,
+        "testQuestionsId": 22
+    },
+    {
+        "id": 133,
+        "isCorrect": false,
+        "option": "oppress",
+        "optionNo": 1,
+        "testQuestionsId": 23
+    },
+    {
+        "id": 134,
+        "isCorrect": false,
+        "option": "reliable",
+        "optionNo": 1,
+        "testQuestionsId": 23
+    },
+    {
+        "id": 135,
+        "isCorrect": true,
+        "option": "precarious",
+        "optionNo": 1,
+        "testQuestionsId": 23
+    },
+    {
+        "id": 136,
+        "isCorrect": false,
+        "option": "secure",
+        "optionNo": 1,
+        "testQuestionsId": 23
+    },
+    {
+        "id": 137,
+        "isCorrect": false,
+        "option": "distress",
+        "optionNo": 1,
+        "testQuestionsId": 23
+    },
+    {
+        "id": 138,
+        "isCorrect": false,
+        "option": "intolerance",
+        "optionNo": 1,
+        "testQuestionsId": 24
+    },
+    {
+        "id": 139,
+        "isCorrect": false,
+        "option": "Vulgarity",
+        "optionNo": 1,
+        "testQuestionsId": 24
+    },
+    {
+        "id": 140,
+        "isCorrect": false,
+        "option": "arrogance",
+        "optionNo": 1,
+        "testQuestionsId": 24
+    },
+    {
+        "id": 141,
+        "isCorrect": true,
+        "option": "perfidy",
+        "optionNo": 1,
+        "testQuestionsId": 24
+    },
+    {
+        "id": 142,
+        "isCorrect": false,
+        "option": "greed",
+        "optionNo": 1,
+        "testQuestionsId": 24
+    },
+    {
+        "id": 143,
+        "isCorrect": true,
+        "option": "treachery",
+        "optionNo": 1,
+        "testQuestionsId": 24
+    },
+    {
+        "id": 144,
+        "isCorrect": false,
+        "option": "abstain",
+        "optionNo": 1,
+        "testQuestionsId": 25
+    },
+    {
+        "id": 145,
+        "isCorrect": false,
+        "option": "refute",
+        "optionNo": 1,
+        "testQuestionsId": 25
+    },
+    {
+        "id": 146,
+        "isCorrect": true,
+        "option": "eschew",
+        "optionNo": 1,
+        "testQuestionsId": 25
+    },
+    {
+        "id": 147,
+        "isCorrect": false,
+        "option": "repudiate",
+        "optionNo": 1,
+        "testQuestionsId": 25
+    },
+    {
+        "id": 148,
+        "isCorrect": false,
+        "option": "permit",
+        "optionNo": 1,
+        "testQuestionsId": 25
+    },
+    {
+        "id": 149,
+        "isCorrect": false,
+        "option": "sanction",
+        "optionNo": 1,
+        "testQuestionsId": 25
+    },
+    {
+        "id": 150,
+        "isCorrect": false,
+        "option": "heretic",
+        "optionNo": 1,
+        "testQuestionsId": 26
+    },
+    {
+        "id": 151,
+        "isCorrect": false,
+        "option": "emphatic",
+        "optionNo": 1,
+        "testQuestionsId": 26
+    },
+    {
+        "id": 152,
+        "isCorrect": true,
+        "option": "germane",
+        "optionNo": 1,
+        "testQuestionsId": 26
+    },
+    {
+        "id": 153,
+        "isCorrect": false,
+        "option": "imperative",
+        "optionNo": 1,
+        "testQuestionsId": 26
+    },
+    {
+        "id": 154,
+        "isCorrect": true,
+        "option": "pertinent",
+        "optionNo": 1,
+        "testQuestionsId": 26
+    },
+    {
+        "id": 155,
+        "isCorrect": false,
+        "option": "assertive",
+        "optionNo": 1,
+        "testQuestionsId": 26
+    },
+    {
+        "id": 156,
+        "isCorrect": false,
+        "option": "rusty",
+        "optionNo": 1,
+        "testQuestionsId": 27
+    },
+    {
+        "id": 157,
+        "isCorrect": false,
+        "option": "contemporary",
+        "optionNo": 1,
+        "testQuestionsId": 27
+    },
+    {
+        "id": 158,
+        "isCorrect": false,
+        "option": "prime",
+        "optionNo": 1,
+        "testQuestionsId": 27
+    },
+    {
+        "id": 159,
+        "isCorrect": true,
+        "option": "pristine",
+        "optionNo": 1,
+        "testQuestionsId": 27
+    },
+    {
+        "id": 160,
+        "isCorrect": true,
+        "option": "immaculate",
+        "optionNo": 1,
+        "testQuestionsId": 27
+    },
+    {
+        "id": 161,
+        "isCorrect": false,
+        "option": "classic",
+        "optionNo": 1,
+        "testQuestionsId": 27
+    },
+    {
+        "id": 162,
+        "isCorrect": false,
+        "option": "apathetic",
+        "optionNo": 1,
+        "testQuestionsId": 28
+    },
+    {
+        "id": 163,
+        "isCorrect": false,
+        "option": "indifferent",
+        "optionNo": 1,
+        "testQuestionsId": 28
+    },
+    {
+        "id": 164,
+        "isCorrect": false,
+        "option": "phlegmatic",
+        "optionNo": 1,
+        "testQuestionsId": 28
+    },
+    {
+        "id": 165,
+        "isCorrect": false,
+        "option": "trifling",
+        "optionNo": 1,
+        "testQuestionsId": 28
+    },
+    {
+        "id": 166,
+        "isCorrect": true,
+        "option": "profound",
+        "optionNo": 1,
+        "testQuestionsId": 28
+    },
+    {
+        "id": 167,
+        "isCorrect": true,
+        "option": "earnest",
+        "optionNo": 1,
+        "testQuestionsId": 28
+    },
+    {
+        "id": 168,
+        "isCorrect": false,
+        "option": "agile",
+        "optionNo": 1,
+        "testQuestionsId": 29
+    },
+    {
+        "id": 169,
+        "isCorrect": true,
+        "option": "fallow",
+        "optionNo": 1,
+        "testQuestionsId": 29
+    },
+    {
+        "id": 170,
+        "isCorrect": false,
+        "option": "frisky",
+        "optionNo": 1,
+        "testQuestionsId": 29
+    },
+    {
+        "id": 171,
+        "isCorrect": true,
+        "option": "quiescent",
+        "optionNo": 1,
+        "testQuestionsId": 29
+    },
+    {
+        "id": 172,
+        "isCorrect": false,
+        "option": "industrious",
+        "optionNo": 1,
+        "testQuestionsId": 29
+    },
+    {
+        "id": 173,
+        "isCorrect": false,
+        "option": "diligent",
+        "optionNo": 1,
+        "testQuestionsId": 29
+    },
+    {
+        "id": 174,
+        "isCorrect": false,
+        "option": "delineated",
+        "optionNo": 1,
+        "testQuestionsId": 30
+    },
+    {
+        "id": 175,
+        "isCorrect": true,
+        "option": "abrogated",
+        "optionNo": 1,
+        "testQuestionsId": 30
+    },
+    {
+        "id": 176,
+        "isCorrect": false,
+        "option": "rescinded",
+        "optionNo": 1,
+        "testQuestionsId": 30
+    },
+    {
+        "id": 177,
+        "isCorrect": true,
+        "option": "absconded",
+        "optionNo": 2,
+        "testQuestionsId": 30
+    },
+    {
+        "id": 178,
+        "isCorrect": false,
+        "option": "abased",
+        "optionNo": 2,
+        "testQuestionsId": 30
+    },
+    {
+        "id": 179,
+        "isCorrect": false,
+        "option": "debased",
+        "optionNo": 2,
+        "testQuestionsId": 30
+    },
+    {
+        "id": 180,
+        "isCorrect": true,
+        "option": "lambast",
+        "optionNo": 1,
+        "testQuestionsId": 31
+    },
+    {
+        "id": 181,
+        "isCorrect": false,
+        "option": "reproach",
+        "optionNo": 1,
+        "testQuestionsId": 31
+    },
+    {
+        "id": 182,
+        "isCorrect": true,
+        "option": "rebuke",
+        "optionNo": 1,
+        "testQuestionsId": 31
+    },
+    {
+        "id": 183,
+        "isCorrect": false,
+        "option": "pejorative",
+        "optionNo": 1,
+        "testQuestionsId": 31
+    },
+    {
+        "id": 184,
+        "isCorrect": false,
+        "option": "derogatory",
+        "optionNo": 1,
+        "testQuestionsId": 31
+    },
+    {
+        "id": 185,
+        "isCorrect": false,
+        "option": "disparaging",
+        "optionNo": 1,
+        "testQuestionsId": 31
+    },
+    {
+        "id": 186,
+        "isCorrect": false,
+        "option": "proposition",
+        "optionNo": 1,
+        "testQuestionsId": 32
+    },
+    {
+        "id": 187,
+        "isCorrect": false,
+        "option": "explication",
+        "optionNo": 1,
+        "testQuestionsId": 32
+    },
+    {
+        "id": 188,
+        "isCorrect": true,
+        "option": "Conundrum",
+        "optionNo": 1,
+        "testQuestionsId": 32
+    },
+    {
+        "id": 189,
+        "isCorrect": true,
+        "option": "enigma",
+        "optionNo": 1,
+        "testQuestionsId": 32
+    },
+    {
+        "id": 190,
+        "isCorrect": false,
+        "option": "axiom",
+        "optionNo": 1,
+        "testQuestionsId": 32
+    },
+    {
+        "id": 191,
+        "isCorrect": false,
+        "option": "insolence",
+        "optionNo": 1,
+        "testQuestionsId": 32
+    },
+    {
+        "id": 192,
+        "isCorrect": false,
+        "option": "Foment",
+        "optionNo": 1,
+        "testQuestionsId": 33
+    },
+    {
+        "id": 193,
+        "isCorrect": false,
+        "option": "prevaricate",
+        "optionNo": 1,
+        "testQuestionsId": 33
+    },
+    {
+        "id": 194,
+        "isCorrect": true,
+        "option": "provoke",
+        "optionNo": 1,
+        "testQuestionsId": 33
+    },
+    {
+        "id": 195,
+        "isCorrect": false,
+        "option": "agitate",
+        "optionNo": 1,
+        "testQuestionsId": 33
+    },
+    {
+        "id": 196,
+        "isCorrect": false,
+        "option": "instigate",
+        "optionNo": 1,
+        "testQuestionsId": 33
+    },
+    {
+        "id": 197,
+        "isCorrect": false,
+        "option": "incite",
+        "optionNo": 1,
+        "testQuestionsId": 33
+    },
+    {
+        "id": 198,
+        "isCorrect": true,
+        "option": "lackadaisical",
+        "optionNo": 1,
+        "testQuestionsId": 34
+    },
+    {
+        "id": 199,
+        "isCorrect": false,
+        "option": "pensive ",
+        "optionNo": 1,
+        "testQuestionsId": 34
+    },
+    {
+        "id": 200,
+        "isCorrect": false,
+        "option": "accusatory",
+        "optionNo": 1,
+        "testQuestionsId": 34
+    },
+    {
+        "id": 201,
+        "isCorrect": true,
+        "option": "prudent",
+        "optionNo": 2,
+        "testQuestionsId": 34
+    },
+    {
+        "id": 202,
+        "isCorrect": false,
+        "option": "didactic",
+        "optionNo": 2,
+        "testQuestionsId": 34
+    },
+    {
+        "id": 203,
+        "isCorrect": false,
+        "option": "whimsical",
+        "optionNo": 2,
+        "testQuestionsId": 34
+    },
+    {
+        "id": 204,
+        "isCorrect": false,
+        "option": "vagary",
+        "optionNo": 1,
+        "testQuestionsId": 35
+    },
+    {
+        "id": 205,
+        "isCorrect": true,
+        "option": "hegemony",
+        "optionNo": 1,
+        "testQuestionsId": 35
+    },
+    {
+        "id": 206,
+        "isCorrect": false,
+        "option": "benignancy",
+        "optionNo": 1,
+        "testQuestionsId": 35
+    },
+    {
+        "id": 207,
+        "isCorrect": false,
+        "option": "subservience",
+        "optionNo": 1,
+        "testQuestionsId": 35
+    },
+    {
+        "id": 208,
+        "isCorrect": false,
+        "option": "largesse",
+        "optionNo": 1,
+        "testQuestionsId": 35
+    },
+    {
+        "id": 209,
+        "isCorrect": true,
+        "option": "ascendancy",
+        "optionNo": 1,
+        "testQuestionsId": 35
+    },
+    {
+        "id": 210,
+        "isCorrect": false,
+        "option": "ephemeral",
+        "optionNo": 1,
+        "testQuestionsId": 36
+    },
+    {
+        "id": 211,
+        "isCorrect": true,
+        "option": "entrenched",
+        "optionNo": 1,
+        "testQuestionsId": 36
+    },
+    {
+        "id": 212,
+        "isCorrect": true,
+        "option": "ingrained",
+        "optionNo": 1,
+        "testQuestionsId": 36
+    },
+    {
+        "id": 213,
+        "isCorrect": false,
+        "option": "impertinent",
+        "optionNo": 1,
+        "testQuestionsId": 36
+    },
+    {
+        "id": 214,
+        "isCorrect": false,
+        "option": "transient",
+        "optionNo": 1,
+        "testQuestionsId": 36
+    },
+    {
+        "id": 215,
+        "isCorrect": false,
+        "option": "espoused",
+        "optionNo": 1,
+        "testQuestionsId": 36
+    },
+    {
+        "id": 216,
+        "isCorrect": false,
+        "option": "adamant",
+        "optionNo": 1,
+        "testQuestionsId": 37
+    },
+    {
+        "id": 217,
+        "isCorrect": true,
+        "option": "intrepid",
+        "optionNo": 1,
+        "testQuestionsId": 37
+    },
+    {
+        "id": 218,
+        "isCorrect": false,
+        "option": "resolute",
+        "optionNo": 1,
+        "testQuestionsId": 37
+    },
+    {
+        "id": 219,
+        "isCorrect": false,
+        "option": "gallantry",
+        "optionNo": 1,
+        "testQuestionsId": 37
+    },
+    {
+        "id": 310,
+        "isCorrect": true,
+        "option": "dauntless",
+        "optionNo": 1,
+        "testQuestionsId": 37
+    },
+    {
+        "id": 311,
+        "isCorrect": false,
+        "option": "brazen",
+        "optionNo": 1,
+        "testQuestionsId": 37
+    },
+    {
+        "id": 312,
+        "isCorrect": true,
+        "option": "expound ",
+        "optionNo": 1,
+        "testQuestionsId": 38
+    },
+    {
+        "id": 313,
+        "isCorrect": true,
+        "option": "propound",
+        "optionNo": 1,
+        "testQuestionsId": 38
+    },
+    {
+        "id": 314,
+        "isCorrect": false,
+        "option": "slipshod",
+        "optionNo": 1,
+        "testQuestionsId": 38
+    },
+    {
+        "id": 315,
+        "isCorrect": false,
+        "option": "construe",
+        "optionNo": 1,
+        "testQuestionsId": 38
+    },
+    {
+        "id": 316,
+        "isCorrect": false,
+        "option": "vacillated",
+        "optionNo": 1,
+        "testQuestionsId": 38
+    },
+    {
+        "id": 317,
+        "isCorrect": false,
+        "option": "balefully",
+        "optionNo": 1,
+        "testQuestionsId": 38
+    },
+    {
+        "id": 318,
+        "isCorrect": false,
+        "option": "pernicious",
+        "optionNo": 1,
+        "testQuestionsId": 39
+    },
+    {
+        "id": 319,
+        "isCorrect": false,
+        "option": "munificent",
+        "optionNo": 1,
+        "testQuestionsId": 39
+    },
+    {
+        "id": 320,
+        "isCorrect": false,
+        "option": "bountiful",
+        "optionNo": 1,
+        "testQuestionsId": 39
+    },
+    {
+        "id": 321,
+        "isCorrect": true,
+        "option": "disparaging",
+        "optionNo": 1,
+        "testQuestionsId": 39
+    },
+    {
+        "id": 322,
+        "isCorrect": false,
+        "option": "nuancing",
+        "optionNo": 1,
+        "testQuestionsId": 39
+    },
+    {
+        "id": 323,
+        "isCorrect": true,
+        "option": "pejorative",
+        "optionNo": 1,
+        "testQuestionsId": 39
+    },
+    {
+        "id": 324,
+        "isCorrect": false,
+        "option": "blinkered",
+        "optionNo": 1,
+        "testQuestionsId": 40
+    },
+    {
+        "id": 325,
+        "isCorrect": true,
+        "option": "adamant",
+        "optionNo": 1,
+        "testQuestionsId": 40
+    },
+    {
+        "id": 326,
+        "isCorrect": false,
+        "option": "parochial",
+        "optionNo": 1,
+        "testQuestionsId": 40
+    },
+    {
+        "id": 327,
+        "isCorrect": false,
+        "option": "myopic",
+        "optionNo": 1,
+        "testQuestionsId": 40
+    },
+    {
+        "id": 328,
+        "isCorrect": true,
+        "option": "resolute",
+        "optionNo": 1,
+        "testQuestionsId": 40
+    },
+    {
+        "id": 329,
+        "isCorrect": false,
+        "option": "reconciliatory",
+        "optionNo": 1,
+        "testQuestionsId": 40
+    },
+    {
+        "id": 330,
+        "isCorrect": true,
+        "option": "scrupulous",
+        "optionNo": 1,
+        "testQuestionsId": 41
+    },
+    {
+        "id": 331,
+        "isCorrect": true,
+        "option": "meticulous",
+        "optionNo": 1,
+        "testQuestionsId": 41
+    },
+    {
+        "id": 332,
+        "isCorrect": false,
+        "option": "imminently",
+        "optionNo": 1,
+        "testQuestionsId": 41
+    },
+    {
+        "id": 333,
+        "isCorrect": false,
+        "option": "admonitory",
+        "optionNo": 1,
+        "testQuestionsId": 41
+    },
+    {
+        "id": 334,
+        "isCorrect": false,
+        "option": "sloppy",
+        "optionNo": 1,
+        "testQuestionsId": 41
+    },
+    {
+        "id": 335,
+        "isCorrect": false,
+        "option": "slapdash",
+        "optionNo": 1,
+        "testQuestionsId": 41
+    },
+    {
+        "id": 336,
+        "isCorrect": false,
+        "option": "conspicuous",
+        "optionNo": 1,
+        "testQuestionsId": 42
+    },
+    {
+        "id": 337,
+        "isCorrect": false,
+        "option": "preempt",
+        "optionNo": 1,
+        "testQuestionsId": 42
+    },
+    {
+        "id": 338,
+        "isCorrect": false,
+        "option": "insipid",
+        "optionNo": 1,
+        "testQuestionsId": 42
+    },
+    {
+        "id": 339,
+        "isCorrect": true,
+        "option": "inept",
+        "optionNo": 1,
+        "testQuestionsId": 42
+    },
+    {
+        "id": 340,
+        "isCorrect": true,
+        "option": "incompetent",
+        "optionNo": 1,
+        "testQuestionsId": 42
+    },
+    {
+        "id": 341,
+        "isCorrect": false,
+        "option": "blatant",
+        "optionNo": 1,
+        "testQuestionsId": 42
+    },
+    {
+        "id": 342,
+        "isCorrect": false,
+        "option": "insipid",
+        "optionNo": 1,
+        "testQuestionsId": 43
+    },
+    {
+        "id": 343,
+        "isCorrect": true,
+        "option": "choleric",
+        "optionNo": 1,
+        "testQuestionsId": 43
+    },
+    {
+        "id": 344,
+        "isCorrect": false,
+        "option": "perfunctory",
+        "optionNo": 1,
+        "testQuestionsId": 43
+    },
+    {
+        "id": 345,
+        "isCorrect": false,
+        "option": "nonchalant",
+        "optionNo": 1,
+        "testQuestionsId": 43
+    },
+    {
+        "id": 346,
+        "isCorrect": false,
+        "option": "vapid",
+        "optionNo": 1,
+        "testQuestionsId": 43
+    },
+    {
+        "id": 347,
+        "isCorrect": false,
+        "option": "tepid",
+        "optionNo": 1,
+        "testQuestionsId": 43
+    },
+    {
+        "id": 348,
+        "isCorrect": false,
+        "option": "defamatory",
+        "optionNo": 1,
+        "testQuestionsId": 44
+    },
+    {
+        "id": 349,
+        "isCorrect": false,
+        "option": "reproach",
+        "optionNo": 1,
+        "testQuestionsId": 44
+    },
+    {
+        "id": 350,
+        "isCorrect": false,
+        "option": "denigratory",
+        "optionNo": 1,
+        "testQuestionsId": 44
+    },
+    {
+        "id": 351,
+        "isCorrect": true,
+        "option": "choleric",
+        "optionNo": 1,
+        "testQuestionsId": 44
+    },
+    {
+        "id": 352,
+        "isCorrect": false,
+        "option": "pejorative",
+        "optionNo": 1,
+        "testQuestionsId": 44
+    },
+    {
+        "id": 353,
+        "isCorrect": true,
+        "option": "grumpy",
+        "optionNo": 1,
+        "testQuestionsId": 44
+    },
+    {
+        "id": 354,
+        "isCorrect": true,
+        "option": "remunerate",
+        "optionNo": 1,
+        "testQuestionsId": 45
+    },
+    {
+        "id": 355,
+        "isCorrect": true,
+        "option": "defray",
+        "optionNo": 1,
+        "testQuestionsId": 45
+    },
+    {
+        "id": 356,
+        "isCorrect": false,
+        "option": "equivocate",
+        "optionNo": 1,
+        "testQuestionsId": 45
+    },
+    {
+        "id": 357,
+        "isCorrect": false,
+        "option": "condone",
+        "optionNo": 1,
+        "testQuestionsId": 45
+    },
+    {
+        "id": 358,
+        "isCorrect": false,
+        "option": "hoary",
+        "optionNo": 1,
+        "testQuestionsId": 45
+    },
+    {
+        "id": 359,
+        "isCorrect": false,
+        "option": "promulgate",
+        "optionNo": 1,
+        "testQuestionsId": 45
+    },
+    {
+        "id": 360,
+        "isCorrect": false,
+        "option": "engender",
+        "optionNo": 1,
+        "testQuestionsId": 45
+    },
+    {
+        "id": 361,
+        "isCorrect": false,
+        "option": "alacrity",
+        "optionNo": 1,
+        "testQuestionsId": 46
+    },
+    {
+        "id": 362,
+        "isCorrect": false,
+        "option": "grandiloquence",
+        "optionNo": 1,
+        "testQuestionsId": 46
+    },
+    {
+        "id": 363,
+        "isCorrect": true,
+        "option": "clemency",
+        "optionNo": 1,
+        "testQuestionsId": 46
+    },
+    {
+        "id": 364,
+        "isCorrect": false,
+        "option": "banal",
+        "optionNo": 2,
+        "testQuestionsId": 46
+    },
+    {
+        "id": 365,
+        "isCorrect": true,
+        "option": "penurious",
+        "optionNo": 2,
+        "testQuestionsId": 46
+    },
+    {
+        "id": 366,
+        "isCorrect": false,
+        "option": "weary",
+        "optionNo": 2,
+        "testQuestionsId": 46
+    },
+    {
+        "id": 367,
+        "isCorrect": false,
+        "option": "perturb",
+        "optionNo": 1,
+        "testQuestionsId": 47
+    },
+    {
+        "id": 368,
+        "isCorrect": false,
+        "option": "rile",
+        "optionNo": 1,
+        "testQuestionsId": 47
+    },
+    {
+        "id": 369,
+        "isCorrect": false,
+        "option": "petulant ",
+        "optionNo": 1,
+        "testQuestionsId": 47
+    },
+    {
+        "id": 370,
+        "isCorrect": true,
+        "option": "blathering",
+        "optionNo": 1,
+        "testQuestionsId": 47
+    },
+    {
+        "id": 371,
+        "isCorrect": true,
+        "option": "fustian",
+        "optionNo": 1,
+        "testQuestionsId": 47
+    },
+    {
+        "id": 372,
+        "isCorrect": false,
+        "option": "fractious",
+        "optionNo": 1,
+        "testQuestionsId": 47
+    },
+    {
+        "id": 373,
+        "isCorrect": true,
+        "option": "plodding",
+        "optionNo": 1,
+        "testQuestionsId": 48
+    },
+    {
+        "id": 374,
+        "isCorrect": false,
+        "option": "earnest",
+        "optionNo": 1,
+        "testQuestionsId": 48
+    },
+    {
+        "id": 375,
+        "isCorrect": false,
+        "option": "profound",
+        "optionNo": 1,
+        "testQuestionsId": 48
+    },
+    {
+        "id": 376,
+        "isCorrect": false,
+        "option": "fallow",
+        "optionNo": 1,
+        "testQuestionsId": 48
+    },
+    {
+        "id": 377,
+        "isCorrect": true,
+        "option": "ponderous",
+        "optionNo": 1,
+        "testQuestionsId": 48
+    },
+    {
+        "id": 378,
+        "isCorrect": false,
+        "option": "passive",
+        "optionNo": 1,
+        "testQuestionsId": 48
+    },
+    {
+        "id": 379,
+        "isCorrect": false,
+        "option": "alleviate",
+        "optionNo": 1,
+        "testQuestionsId": 49
+    },
+    {
+        "id": 380,
+        "isCorrect": false,
+        "option": "relegate",
+        "optionNo": 1,
+        "testQuestionsId": 49
+    },
+    {
+        "id": 381,
+        "isCorrect": false,
+        "option": "ostracize",
+        "optionNo": 1,
+        "testQuestionsId": 49
+    },
+    {
+        "id": 382,
+        "isCorrect": true,
+        "option": "impair",
+        "optionNo": 1,
+        "testQuestionsId": 49
+    },
+    {
+        "id": 383,
+        "isCorrect": false,
+        "option": "quiescent",
+        "optionNo": 1,
+        "testQuestionsId": 49
+    },
+    {
+        "id": 384,
+        "isCorrect": true,
+        "option": "attenuate",
+        "optionNo": 1,
+        "testQuestionsId": 49
+    },
+    {
+        "id": 385,
+        "isCorrect": true,
+        "option": "Invictus",
+        "optionNo": 1,
+        "testQuestionsId": 50
+    },
+    {
+        "id": 386,
+        "isCorrect": false,
+        "option": "invective",
+        "optionNo": 1,
+        "testQuestionsId": 50
+    },
+    {
+        "id": 387,
+        "isCorrect": false,
+        "option": "vitriol",
+        "optionNo": 1,
+        "testQuestionsId": 50
+    },
+    {
+        "id": 388,
+        "isCorrect": false,
+        "option": "vilify",
+        "optionNo": 1,
+        "testQuestionsId": 50
+    },
+    {
+        "id": 389,
+        "isCorrect": false,
+        "option": "condemn",
+        "optionNo": 1,
+        "testQuestionsId": 50
+    },
+    {
+        "id": 390,
+        "isCorrect": true,
+        "option": "conscientious",
+        "optionNo": 1,
+        "testQuestionsId": 50
+    },
+    {
+        "id": 391,
+        "isCorrect": false,
+        "option": "cupid",
+        "optionNo": 1,
+        "testQuestionsId": 51
+    },
+    {
+        "id": 392,
+        "isCorrect": false,
+        "option": "malfeasance",
+        "optionNo": 1,
+        "testQuestionsId": 51
+    },
+    {
+        "id": 393,
+        "isCorrect": true,
+        "option": "parvenu",
+        "optionNo": 1,
+        "testQuestionsId": 51
+    },
+    {
+        "id": 394,
+        "isCorrect": false,
+        "option": "avarice",
+        "optionNo": 1,
+        "testQuestionsId": 51
+    },
+    {
+        "id": 395,
+        "isCorrect": true,
+        "option": "arriviste",
+        "optionNo": 1,
+        "testQuestionsId": 51
+    },
+    {
+        "id": 396,
+        "isCorrect": false,
+        "option": "Blue-pencil",
+        "optionNo": 1,
+        "testQuestionsId": 51
+    },
+    {
+        "id": 397,
+        "isCorrect": false,
+        "option": "benighted",
+        "optionNo": 1,
+        "testQuestionsId": 52
+    },
+    {
+        "id": 398,
+        "isCorrect": false,
+        "option": "banned",
+        "optionNo": 1,
+        "testQuestionsId": 52
+    },
+    {
+        "id": 399,
+        "isCorrect": true,
+        "option": "expurgated",
+        "optionNo": 1,
+        "testQuestionsId": 52
+    },
+    {
+        "id": 400,
+        "isCorrect": true,
+        "option": "bowdlerized",
+        "optionNo": 1,
+        "testQuestionsId": 52
+    },
+    {
+        "id": 401,
+        "isCorrect": false,
+        "option": "intricated",
+        "optionNo": 1,
+        "testQuestionsId": 52
+    },
+    {
+        "id": 402,
+        "isCorrect": false,
+        "option": "baffled",
+        "optionNo": 1,
+        "testQuestionsId": 52
+    },
+    {
+        "id": 403,
+        "isCorrect": true,
+        "option": "bewildering",
+        "optionNo": 1,
+        "testQuestionsId": 53
+    },
+    {
+        "id": 404,
+        "isCorrect": true,
+        "option": "perplexing",
+        "optionNo": 1,
+        "testQuestionsId": 53
+    },
+    {
+        "id": 405,
+        "isCorrect": false,
+        "option": "magnanimous",
+        "optionNo": 1,
+        "testQuestionsId": 53
+    },
+    {
+        "id": 406,
+        "isCorrect": false,
+        "option": "unstinting",
+        "optionNo": 1,
+        "testQuestionsId": 53
+    },
+    {
+        "id": 407,
+        "isCorrect": false,
+        "option": "benignant",
+        "optionNo": 1,
+        "testQuestionsId": 53
+    },
+    {
+        "id": 408,
+        "isCorrect": false,
+        "option": "impetus",
+        "optionNo": 1,
+        "testQuestionsId": 53
+    },
+    {
+        "id": 409,
+        "isCorrect": false,
+        "option": "pious",
+        "optionNo": 1,
+        "testQuestionsId": 54
+    },
+    {
+        "id": 410,
+        "isCorrect": true,
+        "option": "exegesis",
+        "optionNo": 1,
+        "testQuestionsId": 54
+    },
+    {
+        "id": 411,
+        "isCorrect": false,
+        "option": "priggish",
+        "optionNo": 1,
+        "testQuestionsId": 54
+    },
+    {
+        "id": 412,
+        "isCorrect": false,
+        "option": "supercilious",
+        "optionNo": 1,
+        "testQuestionsId": 54
+    },
+    {
+        "id": 413,
+        "isCorrect": false,
+        "option": "sanctimonious",
+        "optionNo": 1,
+        "testQuestionsId": 54
+    },
+    {
+        "id": 414,
+        "isCorrect": true,
+        "option": "schadenfreude",
+        "optionNo": 1,
+        "testQuestionsId": 54
+    },
+    {
+        "id": 415,
+        "isCorrect": false,
+        "option": "gerrymandered",
+        "optionNo": 1,
+        "testQuestionsId": 55
+    },
+    {
+        "id": 416,
+        "isCorrect": true,
+        "option": "remonstrated",
+        "optionNo": 1,
+        "testQuestionsId": 55
+    },
+    {
+        "id": 417,
+        "isCorrect": true,
+        "option": "expostulated",
+        "optionNo": 1,
+        "testQuestionsId": 55
+    },
+    {
+        "id": 418,
+        "isCorrect": false,
+        "option": "conciliated",
+        "optionNo": 1,
+        "testQuestionsId": 55
+    },
+    {
+        "id": 419,
+        "isCorrect": false,
+        "option": "quixotic",
+        "optionNo": 1,
+        "testQuestionsId": 55
+    },
+    {
+        "id": 420,
+        "isCorrect": false,
+        "option": "modicum",
+        "optionNo": 1,
+        "testQuestionsId": 55
+    },
+    {
+        "id": 421,
+        "isCorrect": false,
+        "option": "pugnacious",
+        "optionNo": 1,
+        "testQuestionsId": 56
+    },
+    {
+        "id": 422,
+        "isCorrect": false,
+        "option": "histrionic",
+        "optionNo": 1,
+        "testQuestionsId": 56
+    },
+    {
+        "id": 423,
+        "isCorrect": true,
+        "option": "Churlish",
+        "optionNo": 1,
+        "testQuestionsId": 56
+    },
+    {
+        "id": 444,
+        "isCorrect": false,
+        "option": "vicissitude",
+        "optionNo": 1,
+        "testQuestionsId": 56
+    },
+    {
+        "id": 445,
+        "isCorrect": true,
+        "option": "insolent",
+        "optionNo": 1,
+        "testQuestionsId": 56
+    },
+    {
+        "id": 446,
+        "isCorrect": false,
+        "option": "imbibe",
+        "optionNo": 1,
+        "testQuestionsId": 56
+    },
+    {
+        "id": 447,
+        "isCorrect": false,
+        "option": "picayune",
+        "optionNo": 1,
+        "testQuestionsId": 57
+    },
+    {
+        "id": 448,
+        "isCorrect": false,
+        "option": "smattering",
+        "optionNo": 1,
+        "testQuestionsId": 57
+    },
+    {
+        "id": 449,
+        "isCorrect": true,
+        "option": "acme",
+        "optionNo": 1,
+        "testQuestionsId": 57
+    },
+    {
+        "id": 450,
+        "isCorrect": false,
+        "option": "gallant",
+        "optionNo": 1,
+        "testQuestionsId": 57
+    },
+    {
+        "id": 451,
+        "isCorrect": true,
+        "option": "zenith",
+        "optionNo": 1,
+        "testQuestionsId": 57
+    },
+    {
+        "id": 452,
+        "isCorrect": false,
+        "option": "juggernaut",
+        "optionNo": 1,
+        "testQuestionsId": 57
+    },
+    {
+        "id": 453,
+        "isCorrect": false,
+        "option": "diligence",
+        "optionNo": 1,
+        "testQuestionsId": 58
+    },
+    {
+        "id": 454,
+        "isCorrect": false,
+        "option": "aching",
+        "optionNo": 1,
+        "testQuestionsId": 58
+    },
+    {
+        "id": 455,
+        "isCorrect": true,
+        "option": "aplomb",
+        "optionNo": 1,
+        "testQuestionsId": 58
+    },
+    {
+        "id": 456,
+        "isCorrect": false,
+        "option": "yearning",
+        "optionNo": 1,
+        "testQuestionsId": 58
+    },
+    {
+        "id": 457,
+        "isCorrect": true,
+        "option": "poise",
+        "optionNo": 1,
+        "testQuestionsId": 58
+    },
+    {
+        "id": 458,
+        "isCorrect": false,
+        "option": "fastidiousness",
+        "optionNo": 1,
+        "testQuestionsId": 58
+    },
+    {
+        "id": 459,
+        "isCorrect": false,
+        "option": "Lascivious",
+        "optionNo": 1,
+        "testQuestionsId": 59
+    },
+    {
+        "id": 460,
+        "isCorrect": false,
+        "option": "lewd",
+        "optionNo": 1,
+        "testQuestionsId": 59
+    },
+    {
+        "id": 461,
+        "isCorrect": true,
+        "option": "apostate",
+        "optionNo": 1,
+        "testQuestionsId": 59
+    },
+    {
+        "id": 462,
+        "isCorrect": true,
+        "option": "rancorous",
+        "optionNo": 1,
+        "testQuestionsId": 59
+    },
+    {
+        "id": 463,
+        "isCorrect": false,
+        "option": "wanton",
+        "optionNo": 1,
+        "testQuestionsId": 59
+    },
+    {
+        "id": 464,
+        "isCorrect": false,
+        "option": "libidinous",
+        "optionNo": 1,
+        "testQuestionsId": 59
+    },
+    {
+        "id": 465,
+        "isCorrect": true,
+        "option": "quixotic",
+        "optionNo": 1,
+        "testQuestionsId": 60
+    },
+    {
+        "id": 466,
+        "isCorrect": false,
+        "option": "feckless",
+        "optionNo": 1,
+        "testQuestionsId": 60
+    },
+    {
+        "id": 467,
+        "isCorrect": false,
+        "option": "sangfroid",
+        "optionNo": 1,
+        "testQuestionsId": 60
+    },
+    {
+        "id": 468,
+        "isCorrect": false,
+        "option": "gingerly",
+        "optionNo": 1,
+        "testQuestionsId": 60
+    },
+    {
+        "id": 469,
+        "isCorrect": false,
+        "option": "painstaking",
+        "optionNo": 1,
+        "testQuestionsId": 60
+    }
+]

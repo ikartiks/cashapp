@@ -1,0 +1,176 @@
+apply plugin: "com.android.application"
+apply plugin: "kotlin-android"
+apply plugin: "kotlin-android-extensions"
+apply plugin: "kotlin-kapt"
+apply from: "ktlint.gradle"
+apply plugin: "androidx.navigation.safeargs.kotlin"
+
+//OpenForTesting
+apply plugin: 'kotlin-allopen'
+
+android {
+
+    compileSdkVersion 33
+
+    defaultConfig {
+        applicationId "com.kartik.grevocab"
+        minSdkVersion 21
+        targetSdkVersion 33
+        multiDexEnabled true
+        versionCode = 62
+        versionName = "2.122"
+        testInstrumentationRunner "com.kartik.grevocab.bootstrap.KoinTestRunner"
+
+        //https://developer.android.com/jetpack/androidx/releases/room#compiler-options
+        javaCompileOptions {
+            annotationProcessorOptions {
+                arguments += [
+                        "room.schemaLocation":"$projectDir/schemas".toString(),
+                        "room.incremental":"true",
+                        "room.expandProjection":"true"]
+            }
+        }
+    }
+
+    signingConfigs {
+    }
+
+    buildTypes {
+        debug {
+            debuggable true
+        }
+    }
+
+    packagingOptions {
+        resources {
+            excludes += ['META-INF/notice.txt', 'META-INF/license.txt']
+        }
+    }
+
+
+    buildFeatures{
+        dataBinding = true
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_11
+        targetCompatibility JavaVersion.VERSION_11
+    }
+
+    kotlinOptions {
+        jvmTarget = JavaVersion.VERSION_11.toString()
+    }
+
+    //to run Junit5 / jupiter tests
+    testOptions {
+        unitTests.all {
+            useJUnitPlatform()
+        }
+    }
+    namespace 'com.kartik.grevocab'
+}
+
+// Forked from https://github.com/googlesamples/android-architecture-components/blob/d81da2cb1e3d61e40f052e631bb15883d0f9f637/GithubBrowserSample/app/build.gradle
+allOpen {
+    // allows mocking for classes w/o directly opening them for release builds
+    annotation 'com.kartik.grevocab.OpenClass'
+}
+
+dependencies {
+
+    //todo check all dependancies, remove gradle, lottie files
+
+    implementation "androidx.legacy:legacy-support-v4:$versions.legacy_support_v4"
+    implementation "androidx.appcompat:appcompat:$versions.appcompat"
+
+    implementation "androidx.cardview:cardview:$versions.cardview"
+    implementation "androidx.recyclerview:recyclerview:$versions.recyclerview"
+    implementation "com.google.android.material:material:$versions.material"
+    implementation "androidx.constraintlayout:constraintlayout:$versions.constraintlayout"
+
+    implementation "androidx.multidex:multidex:$versions.multidex"
+
+    //https://stackoverflow.com/questions/49956051/warning-kotlin-plugin-version-is-not-the-same-as-library-version-but-it-is/64988522
+    //implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$versions.kotlin"
+    // below is required for kotlin at runtime - ActivityBase::class.qualifiedName+" "+this.localClassName, "" + message)
+    implementation "org.jetbrains.kotlin:kotlin-reflect:$versions.kotlin"
+
+    // Koin Core features
+    implementation "io.insert-koin:koin-core:$versions.koin"
+    // Koin main features for Android
+    implementation "io.insert-koin:koin-android:$versions.koin"
+    // No more koin-android-viewmodel, koin-android-scope, koin-android-fragment
+
+    // Java Compatibility
+    implementation "io.insert-koin:koin-android-compat:$versions.koin"
+    // Jetpack WorkManager
+    implementation "io.insert-koin:koin-androidx-workmanager:$versions.koin"
+    // Navigation Graph
+    implementation "io.insert-koin:koin-androidx-navigation:$versions.koin"
+    
+    // Jetpack Compose
+    implementation "io.insert-koin:koin-androidx-compose:$versions.koin"
+
+    // Koin for Ktor 
+    implementation "io.insert-koin:koin-ktor:$versions.koin"
+
+    // Navigation components support
+    implementation "androidx.navigation:navigation-fragment-ktx:$versions.nav"
+    implementation "androidx.navigation:navigation-ui-ktx:$versions.nav"
+
+    // Testing Navigation not needed yet
+    // androidTestImplementation "androidx.navigation:navigation-testing:$nav_version"
+
+    implementation "com.airbnb.android:lottie:$versions.lottie"
+
+    //RX
+    // for rx retrofit
+    implementation "com.squareup.retrofit2:retrofit:$versions.retrofit"
+    implementation "io.reactivex.rxjava3:rxkotlin:$versions.rx_kotlin"
+    implementation "io.reactivex.rxjava3:rxandroid:$versions.rxandroid"
+
+    //Coroutines start
+    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-core:$versions.coroutines"
+    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:$versions.coroutines"
+    //maybe later
+    //https://github.com/Kotlin/kotlinx.coroutines
+
+    implementation 'androidx.lifecycle:lifecycle-livedata-ktx:2.5.1'
+
+    //Coroutines end
+    implementation project(":api")
+
+    //Below fixes the bug https://play.google.com/console/u/0/developers/6244967999041374511/app/4974929193643902363/vitals/crashes/dd7362fd/details?installedFrom=PLAY_STORE&days=30
+    implementation "androidx.work:work-runtime-ktx:$versions.work_version"
+
+    /** New tests start */
+
+    //junit 5
+    testImplementation("org.junit.jupiter:junit-jupiter-api:$versions.jupiter_junit_5")
+    testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:$versions.jupiter_junit_5")
+
+    // for InstantTaskExecutorRule
+    testImplementation 'androidx.arch.core:core-testing:2.1.0'
+
+    //koin
+    testImplementation "io.insert-koin:koin-test:$versions.koin"
+
+    //https://stackoverflow.com/questions/68872301/android-studio-arctic-fox-unable-to-run-junit-configuration-with-mockk
+    //mockk for junit
+    testImplementation "io.mockk:mockk:$versions.mockk"
+    testImplementation "io.mockk:mockk-agent-jvm:$versions.mockk"
+
+    //testImplementation group: "org.jetbrains.kotlin", name: "kotlin-reflect", version: "$versions.kotlin"
+    testImplementation "com.google.code.gson:gson:$versions.gson"
+
+    testImplementation 'org.threeten:threetenbp:1.5.1'
+
+    //coroutines
+    testImplementation "org.jetbrains.kotlinx:kotlinx-coroutines-test:$versions.coroutines"
+    /** New tests end */
+}
+
+repositories {
+    mavenCentral()
+}
+
+preBuild.dependsOn ktlintFormat

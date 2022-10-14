@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme" parent="Theme.MaterialComponents.DayNight">
+        <!-- 1st  System attributes -->
+        <item name="android:windowBackground">@color/screen_bg</item>
+        <item name="android:textColor">@color/primaryText</item>
+
+        <!--
+
+        Cannot give textSize to all views in <item name="android:textSize">@color/primaryText</item> as textAppearance wont work
+
+        Text appearance is overridden at theme level. for material or app compat themes, inside the theme it is given to all buttons in android:buttonStyle
+        similarly all texts in android:textViewStyle
+        and all edit texts in android:editTextStyle
+        <item name="android:textSize">@dimen/text_size_default</item> This sets text view style for all views, so text appearance does not work
+        <item name="android:textViewStyle">@style/OurTextViewStyle</item> Same as above
+        Only down side is you have to apply textAppearance to all views
+         -->
+
+        <item name="windowNoTitle">true</item>
+        <item name="android:statusBarColor">@color/colorPrimaryDark</item>
+        <item name="materialButtonStyle">@style/OurButtonStyle</item>
+
+        <!-- below gives fonts to all text views buttons and all views as per Nick Butcher
+         https://medium.com/androiddevelopers/whats-your-text-s-appearance-f3a1729192d -->
+        <item name="android:fontFamily">@font/roboto_light</item>
+
+        <!-- https://stackoverflow.com/questions/53061213/navigation-architecture-component-how-to-set-change-custom-back-or-hamburger-i -->
+        <item name="drawerArrowStyle">@style/ToolbarArrow</item>
+
+        <!--
+        https://medium.com/over-engineering/setting-up-a-material-components-theme-for-android-fbf7774da739
+        colorPrimary: The primary brand color of your app, used most predominantly in theming
+        colorPrimaryVariant: A lighter/darker variant of your primary brand color, used sparingly in theming
+        colorOnPrimary: The color used for elements displayed on top of your primary colors (eg. Text and icons, often white or semi-transparent black depending on accessibility)
+        colorSecondary: The secondary brand color of your app, used mostly as an accent for certain widgets that need to stand out
+        colorSecondaryVariant: A lighter/darker variant of your secondary brand color, used sparingly in theming
+        colorOnSecondary: The color used for elements displayed on top of your secondary colors
+        colorError: The color used for errors (often a shade of red)
+        colorOnError: The color used for elements displayed on top of your error color
+        colorSurface: The color used for surfaces (i.e. Material “sheets”)
+        colorOnSurface: The color used for elements displayed on top of your surface color
+        android:colorBackground: The color behind all other screen content
+        colorOnBackground: The color used for elements displayed on top of your background color
+        -->
+
+        <item name="colorPrimary">@color/colorPrimary</item> <!-- also used when app is in recent's section -->
+        <item name="colorPrimaryVariant">@color/colorPrimaryDark</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+        <item name="colorError">@color/wrongAns</item>
+        <item name="colorOnError">#FFFFFF</item>
+        <item name="colorSurface">@color/colorPrimaryDark</item>
+        <item name="colorOnSurface">@color/primaryText</item>
+        <item name="android:colorBackground">@color/screen_bg</item>
+        <item name="colorOnBackground">@color/primaryText</item>
+    </style>
+
+    <style name="ToolbarTextStyle">
+        <item name="android:textSize">@dimen/toolbar_text_size</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="OurButtonStyle" parent="Widget.Material3.Button">
+        <item name="android:background">@drawable/default_button_bg</item>
+        <item name="android:padding">@dimen/dp16</item>
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Body1</item>
+        <item name="android:textColor">@color/primaryText</item>
+    </style>
+
+    <!-- This is default text styl;e for textview -->
+    <style name="TextAppearance.AppCompat.Body1">
+        <item name="android:textSize">@dimen/text_size_default</item>
+    </style>
+
+    <!--    <style name= "TextAppearance.AppCompat.Headline"> &lt;!&ndash; by default overrides base one &ndash;&gt;-->
+    <!--        &lt;!&ndash; default has 24 sp so we will just use that one, not overriding in reality &ndash;&gt;-->
+    <!--    </style>-->
+
+    <style name="CustomBottomSheetDialogTheme" parent="ThemeOverlay.MaterialComponents.BottomSheetDialog">
+        <!-- parent="Theme.Design.BottomSheetDialog" -->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowAnimationStyle">@style/Animation.Design.BottomSheetDialog</item>
+        <!-- these 2 come from the  Theme.Design.BottomSheetDialog without it bottom sheet wont show with animation -->
+
+        <!-- below is required for our rounded corner to be visible-->
+        <item name="bottomSheetStyle">@style/CustomBottomSheetStyle</item>
+
+        <!-- below all 4 required to change color of buttons-->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="materialButtonStyle">@style/OurButtonStyle</item>
+    </style>
+
+    <style name="CustomBottomSheetStyle" parent="Widget.MaterialComponents.BottomSheet.Modal">
+        <item name="backgroundTint">@android:color/transparent</item>
+    </style>
+
+<!--    Reason it is not working: colorControlNormal is an attr of the theme while android:textColor is a style attribute.
+        To change colorControlNormal, you have to override a Theme, to change android:textColor value, you have to override a style.
+        There is no attributes named colorControlNormal in @style/Widget.AppCompat.EditText or any parents of it.
+        Therefore, you are overriding nothing when doing this:  -->
+
+    <style name="MyTextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <!-- Style attributes -->
+        <item name="hintTextAppearance">@style/HintText</item>
+        <item name="errorTextAppearance">@style/ErrorText</item>
+        <item name="counterTextAppearance">@style/HintText</item>
+
+        <!-- note any states(activated/normal/error) text color and line color remains same in material theming
+        https://medium.com/omisoft/textinputlayout-styling-8b36a5e0d73c
+        -->
+        <item name="colorPrimary">@color/colorAccent</item>  <!-- Activated color -->
+        <item name="colorOnSurface">@color/primaryText</item> <!-- Normal color -->
+        <item name="colorError">@color/wrongAns</item>        <!-- Error color -->
+
+        <item name="hintTextColor">@color/colorAccent</item>  <!-- Activated color -->
+        <item name="counterTextColor">@color/colorAccent</item> <!-- Normal color -->
+        <item name="errorTextColor">@color/wrongAns</item>        <!-- Error color -->
+
+        <item name="boxStrokeColor">@color/colorAccent</item>
+        <item name="android:textColorHint">@color/primaryText</item>
+    </style>
+
+    <style name="ErrorText" parent="TextAppearance.AppCompat.Body2">
+        <item name="android:textColor">@color/wrongAns</item>
+    </style>
+
+    <style name="HintText" parent="TextAppearance.AppCompat.Body2">
+        <item name="android:textColor">@color/primaryText</item>
+    </style>
+
+    <style name="ToolbarArrow" parent="Widget.AppCompat.DrawerArrowToggle">
+        <item name="color">@color/colorPrimaryDark</item>
+        <item name="drawableSize">32dp</item>
+        <item name="arrowShaftLength">22dp</item>
+        <item name="thickness">3dp</item>
+        <item name="arrowHeadLength">8dp</item>
+    </style>
+
+
+    <style name="DialogStyle" parent="ThemeOverlay.MaterialComponents.Dialog">
+        <item name="android:windowBackground">@drawable/bg_for_cards</item>
+    </style>
+</resources>

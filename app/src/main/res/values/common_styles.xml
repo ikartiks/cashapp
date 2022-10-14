@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- <style name="HeaderLight" parent="@style/Theme.AppCompat.Light">
+        <item name="android:textColor">@color/HeaderLightBg</item>
+        <item name="android:background">@color/HeaderLightText</item>
+    </style>
+
+    <style name="HeaderDark" parent="@style/Theme.AppCompat.Light">
+        <item name="android:textColor">@color/HeaderDarkText</item>
+        <item name="android:background">@color/HeaderDarkBg</item>
+    </style> -->
+
+    <style name="TransparentWindowBackground">
+        <item name="android:windowBackground">@null</item>
+    </style>
+</resources>
