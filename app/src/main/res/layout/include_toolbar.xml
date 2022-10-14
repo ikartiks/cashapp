@@ -10,5 +10,6 @@
     android:transitionName="profile"
     android:visibility="visible"
     app:titleTextAppearance="@style/ToolbarTextStyle"
+    app:titleTextColor="@color/white"
     tools:showIn="@layout/activity_main"
     tools:title="akjsndjkasnd" />

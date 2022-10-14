@@ -1,65 +1,66 @@
-<!-- A DrawerLayout is intended to be used as the top-level content view using match_parent for both width and height to consume the full space available. -->
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical">
-
-    <androidx.appcompat.widget.Toolbar
-        android:id="@+id/toolbar"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@color/colorPrimary"
-        android:elevation="4dp"
-        android:transitionName="profile"
-        android:visibility="visible"
-        app:titleTextAppearance="@style/ToolbarTextStyle"
-        tools:showIn="@layout/activity_main"
-        tools:title="@string/app_name"
-        android:layout_alignParentBottom="true"/>
-
-    <androidx.drawerlayout.widget.DrawerLayout
-        android:id="@+id/drawerLayout"
+<layout>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_above="@id/toolbar"
-        tools:context="com.kartik.grevocab.ActivityMain">
+        android:orientation="vertical">
 
-        <androidx.coordinatorlayout.widget.CoordinatorLayout
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:elevation="4dp"
+            android:transitionName="profile"
+            android:visibility="visible"
+            app:titleTextAppearance="@style/ToolbarTextStyle"
+            tools:showIn="@layout/activity_main"
+            tools:title="@string/app_name"
+            android:layout_alignParentBottom="true"/>
 
-            <androidx.constraintlayout.widget.ConstraintLayout
+        <androidx.drawerlayout.widget.DrawerLayout
+            android:id="@+id/drawerLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@id/toolbar"
+            tools:context="com.kartik.grevocab.ActivityMain">
+
+            <androidx.coordinatorlayout.widget.CoordinatorLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
 
-                <androidx.fragment.app.FragmentContainerView
-                    android:id="@+id/nav_host_fragment"
-                    android:name="androidx.navigation.fragment.NavHostFragment"
+                <androidx.constraintlayout.widget.ConstraintLayout
                     android:layout_width="match_parent"
-                    android:layout_height="0dp"
-                    app:defaultNavHost="true"
-                    app:layout_constraintTop_toTopOf="parent"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:navGraph="@navigation/nav_graph"
-                    tools:layout="@layout/fragment_splash" />
+                    android:layout_height="match_parent">
 
-            </androidx.constraintlayout.widget.ConstraintLayout>
+                    <androidx.fragment.app.FragmentContainerView
+                        android:id="@+id/nav_host_fragment"
+                        android:name="androidx.navigation.fragment.NavHostFragment"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        app:defaultNavHost="true"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:navGraph="@navigation/nav_graph"
+                        tools:layout="@layout/fragment_splash" />
 
-        </androidx.coordinatorlayout.widget.CoordinatorLayout>
+                </androidx.constraintlayout.widget.ConstraintLayout>
 
-        <com.google.android.material.navigation.NavigationView
-            android:id="@+id/nav_view"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_gravity="start"
-            android:background="@color/screen_bg"
-            android:fitsSystemWindows="true"
-            app:headerLayout="@layout/include_header_navigation"
-            app:itemBackground="@drawable/divider_navigation_view"
-            app:itemTextAppearance="@style/TextAppearance.AppCompat.Body1"
-            app:menu="@menu/navigation_menu" />
+            </androidx.coordinatorlayout.widget.CoordinatorLayout>
 
-    </androidx.drawerlayout.widget.DrawerLayout>
-</RelativeLayout>
+            <com.google.android.material.navigation.NavigationView
+                android:id="@+id/nav_view"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="start"
+                android:background="@color/screen_bg"
+                android:fitsSystemWindows="true"
+                app:headerLayout="@layout/include_header_navigation"
+                app:itemBackground="@drawable/divider_navigation_view"
+                app:itemTextAppearance="@style/TextAppearance.AppCompat.Body1"
+                app:menu="@menu/navigation_menu" />
+
+        </androidx.drawerlayout.widget.DrawerLayout>
+    </RelativeLayout>
+</layout>

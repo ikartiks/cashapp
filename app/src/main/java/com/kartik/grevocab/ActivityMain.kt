@@ -11,9 +11,9 @@ import androidx.navigation.ui.onNavDestinationSelected
 import androidx.navigation.ui.setupWithNavController
 import com.google.android.material.navigation.NavigationView
 import com.kartik.grevocab.base.ActivityBase
+import com.kartik.grevocab.databinding.ActivityMainBinding
 import kotlinx.android.synthetic.main.activity_main.drawerLayout
 import kotlinx.android.synthetic.main.activity_main.nav_host_fragment
-import kotlinx.android.synthetic.main.activity_main.nav_view
 import kotlinx.android.synthetic.main.include_toolbar.toolbar
 import org.koin.core.component.KoinComponent
 
@@ -25,17 +25,18 @@ class ActivityMain : ActivityBase(), NavigationView.OnNavigationItemSelectedList
 
     private lateinit var appBarConfiguration: AppBarConfiguration
     private lateinit var navController: NavController
+    private lateinit var binding: ActivityMainBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        binding = ActivityMainBinding.inflate(layoutInflater, null, false)
+        setContentView(binding.root)
 
         setSupportActionBar(toolbar)
-        toolbar.setNavigationOnClickListener { openOrCloseDrawer() }
-
-        nav_view.setNavigationItemSelectedListener(this)
-
-        nav_host_fragment?.post {
+        binding.toolbar.setNavigationOnClickListener { openOrCloseDrawer() }
+        binding.navView.setNavigationItemSelectedListener(this)
+        binding.toolbar.setTitleTextColor(resources.getColor(R.color.white))
+        binding.navHostFragment.post {
             // avoids crash in findNavController
             navController = findNavController(nav_host_fragment)
             appBarConfiguration = AppBarConfiguration(
@@ -46,12 +47,12 @@ class ActivityMain : ActivityBase(), NavigationView.OnNavigationItemSelectedList
                 drawerLayout
             )
 
-            toolbar.setupWithNavController(navController, appBarConfiguration)
+            binding.toolbar.setupWithNavController(navController, appBarConfiguration)
         }
     }
 
     fun setToolbarVisibility(visibility: Int) {
-        toolbar.visibility = visibility
+        binding.toolbar.visibility = visibility
     }
 
     @SuppressLint("RtlHardcoded")
