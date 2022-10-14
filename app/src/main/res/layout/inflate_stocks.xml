@@ -7,7 +7,7 @@
             type="com.kartik.grevocab.adapters.display.StockDisplay" />
     </data>
 
-    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -15,29 +15,60 @@
         android:background="@drawable/bg_for_cards"
         android:elevation="@dimen/dp5"
         android:orientation="vertical"
-        android:padding="@dimen/dp3">
+        android:padding="@dimen/dp15">
 
         <TextView
             android:id="@+id/name"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
-            android:layout_marginTop="15dp"
             android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-            android:transitionName="profile"
             android:text="@{stockDisplay.stock.name}"
-            tools:text="Stock Name" />
+            tools:text="Stock Name"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toTopOf="@id/quantity"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/currency"
+            android:layout_marginEnd="@dimen/dp5"
+            app:layout_constraintHorizontal_bias="0"/>
 
         <TextView
-            android:id="@+id/desc"
+            android:id="@+id/quantity"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="5dp"
             android:gravity="center_horizontal"
+            app:layout_constraintTop_toBottomOf="@id/name"
+            app:layout_constraintStart_toStartOf="parent"
             android:textAppearance="@style/TextAppearance.AppCompat.Body1"
             android:textColor="@color/secondaryText"
-            android:text="@{stockDisplay.stock.quantity.toString()}"
+            android:text="@{stockDisplay.available}"
             tools:text="Stock detail" />
-    </LinearLayout>
+
+        <TextView
+            android:id="@+id/currency"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:text="@{stockDisplay.amount}"
+            tools:text="$123.22"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"/>
+
+        <TextView
+            android:id="@+id/time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp"
+            android:gravity="center_horizontal"
+            app:layout_constraintTop_toBottomOf="@id/name"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="@color/secondaryText"
+            android:text="@{stockDisplay.time}"
+            tools:text="Stock detail" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>
