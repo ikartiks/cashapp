@@ -4,10 +4,10 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import com.kartik.grevocab.adapters.OnBindClickListener
 import com.kartik.grevocab.adapters.StocksAdapter
 import com.kartik.grevocab.base.FragmentBase
 import com.kartik.grevocab.databinding.FragmentStocksBinding
+import com.kartik.grevocab.utility.LoaderState
 import com.kartik.grevocab.vm.FragmentStocksViewModel
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
@@ -16,7 +16,6 @@ import org.koin.androidx.viewmodel.ext.android.viewModel
 
 class FragmentStocks : FragmentBase() {
 
-    lateinit var adapter: StocksAdapter
     lateinit var binding: FragmentStocksBinding
     private val vm: FragmentStocksViewModel by viewModel()
 
@@ -32,18 +31,34 @@ class FragmentStocks : FragmentBase() {
         toolbarTitle(resources.getString(R.string.app_name))
         (activity as ActivityMain).setToolbarVisibility(View.VISIBLE)
 
-        adapter = StocksAdapter(object : OnBindClickListener {
-            override fun onItemClick(view: View, position: Int, item: Any) {}
-        })
+        val adapter = StocksAdapter()
         binding.recyclerView.adapter = adapter
 
         CoroutineScope(Dispatchers.Main).launch {
-            try {
-                val list = vm.getStocks()
-                adapter.replaceData(list)
-            } catch (e: RuntimeException) {
-                showAppSheet(getString(R.string.api_error))
+            val list = vm.getStocks()
+            list?.let { adapter.replaceData(it) }
+        }
+    }
+
+    override fun onResume() {
+        super.onResume()
+        vm.loaderLiveData.observe(viewLifecycleOwner) {
+            when (it) {
+                LoaderState.ERROR -> {
+                    binding.loader.visibility = View.GONE
+                    showAppSheet(getString(R.string.api_error))
+                }
+                LoaderState.LOADING -> {
+                    binding.loader.visibility = View.VISIBLE
+                    binding.loader.playAnimation()
+                }
+                LoaderState.DONE -> binding.loader.visibility = View.GONE
             }
         }
+    }
+
+    override fun onStop() {
+        super.onStop()
+        vm.loaderLiveData.removeObservers(viewLifecycleOwner)
     }
 }

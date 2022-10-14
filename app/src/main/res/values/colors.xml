@@ -1,26 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
     <!--  theme colors -->
-    <color name="colorPrimary">#FFEB3B</color>
-    <color name="colorPrimaryDark">#FBC02D</color>
-    <color name="colorAccent">#FFC107</color>
+    <color name="colorPrimary">#257A28</color>
+    <color name="colorPrimaryDark">#0D470F</color>
+    <color name="colorAccent">#8EBC8F</color>
     <color name="primaryText">#212121</color>
     <color name="secondaryText">#727272</color>
     <color name="divider">#B6B6B6</color>
-    <color name="fabBg">@color/colorPrimaryDark</color>
-    <color name="splashBGColor">#FBC02D</color><!-- hardcoded in here as otherwise it picks dark color for dark theme -->
+    <color name="splashBGColor">#0D470F</color><!-- hardcoded in here as otherwise it picks dark color for dark theme -->
 
     <color name="bgForCards">@color/white</color>
 
     <color name="screen_bg">#F3F3F3</color>
     <color name="popup_bg">@color/white</color>
 
-    <color name="correctAns">#AEF5D1</color>
-    <color name="allWordsDone">#14EA7E</color>
-    <color name="wrongAns">#D17985</color>
-
     <color name="white">#fff</color>
     <color name="black">#000</color>
-
 </resources>

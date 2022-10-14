@@ -8,7 +8,7 @@ import com.kartik.grevocab.adapters.display.getEmptyStocks
 import com.kartik.grevocab.adapters.vh.StocksViewHolder
 import com.kartik.grevocab.databinding.InflateStocksBinding
 
-class StocksAdapter(val clickListener: OnBindClickListener) : RecyclerView.Adapter<BaseBindingViewHolder>() {
+class StocksAdapter(val clickListener: OnBindClickListener? = null) : RecyclerView.Adapter<BaseBindingViewHolder>() {
     private var items: ArrayList<StockDisplay> = ArrayList()
 
     override fun getItemCount(): Int {

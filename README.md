@@ -11,7 +11,7 @@ I have based this project on top of my existing repo, to save setup time and tro
 I was also told by recruiter that a dark mode is a plus, however I have not implemented it as I would urge you to just download my personal app from playstore which has it already. There are many things I would have done differently, eg logging, caching responses in api etc had this been a real project. ( Real reason - I wanted to get this done asap as I did not want to spoil my weekend plans :smile:	 )
 
 ## ! [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
-Just clone the repo from github into android studio and you should be good to go :smile:
+Just clone the repo from github into android studio and you should be good to go
 
 You can mock, all the three api responses - failure, success and empty state from settings by clicking on nav icon. :smirk:
 
