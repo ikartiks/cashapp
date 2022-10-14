@@ -1,0 +1,23 @@
+# Created by .ignore support plugin (hsz.mobi)
+.gradle/
+.idea/
+GreFlashcards.iml
+build/
+gradlew
+gradlew.bat
+app/build/
+app/app.iml
+kartiksCustomViewsGradle/build/
+kartiksCustomViewsGradle/kartiksCustomViewsGradle.iml
+local.properties
+app.iml
+app/.DS_Store
+app/src/main/res/.DS_Store
+app/release/
+grevocab.iml
+app/src/main/.DS_Store
+.DS_Store
+app/okio.pro.txt
+app/proguard-rules.txt
+app/retrofit2.pro.txt
+app/schemas/

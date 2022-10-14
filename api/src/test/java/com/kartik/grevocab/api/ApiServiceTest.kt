@@ -14,6 +14,7 @@ import org.junit.jupiter.api.Test
 import org.koin.test.KoinTest
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
+import java.math.BigDecimal
 
 /**
  * Note if you want something like telstra, where responses are fetched from a file which backend gives, then you probably have to checkout them
@@ -54,15 +55,19 @@ class ApiServiceTest : KoinTest {
         mockWebServer.enqueue(
             MockResponse()
                 .setResponseCode(200)
-                .setBody(FileReader.readStringFromFile("groups.json"))
+                .setBody(FileReader.readStringFromFile("success.json"))
         )
 
         runBlocking {
             val apiService = ApiService(getEndpointsForTests())
-            val response = apiService.fetchStocks()
-            val groups = response.body()
-            val group = groups?.get(0)
-            assertEquals(group?.name, "High Frequency - I")
+            val response = apiService.fetchStocks("portfolio.json")
+            val stocks = response.body()
+            val stock = stocks?.stocks?.get(0)
+            val size = stocks?.stocks?.size
+            assertEquals(stock?.name, "Twitter, Inc.")
+            assertEquals(stock?.currency, "USD")
+            assertEquals(stock?.currentPriceCents, BigDecimal(3833))
+            assertEquals(size, 17)
         }
     }
 
@@ -75,11 +80,11 @@ class ApiServiceTest : KoinTest {
         mockWebServer.enqueue(
             MockResponse()
                 .setResponseCode(404)
-                .setBody(FileReader.readStringFromFile("fail.json"))
+                .setBody(FileReader.readStringFromFile("failure.json"))
         )
         val apiService = ApiService(getEndpointsForTests())
         runBlocking {
-            val response = apiService.fetchStocks()
+            val response = apiService.fetchStocks("portfolio_malformed.json")
             assertEquals(response.code(), 404)
         }
     }

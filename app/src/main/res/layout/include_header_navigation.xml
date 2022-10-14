@@ -13,7 +13,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/dp10"
         android:text="@string/app_name"
-        android:textAppearance="@style/TextAppearance.AppCompat.Headline" />
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+        android:textColor="@color/white"/>
 
     <TextView
         android:id="@+id/HeaderTagLine"
@@ -22,5 +23,6 @@
         android:layout_marginTop="5dp"
         android:layout_marginBottom="@dimen/dp10"
         android:text="@string/HeaderTagLine"
-        android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="@color/white"/>
 </LinearLayout>
