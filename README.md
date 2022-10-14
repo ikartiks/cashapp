@@ -12,11 +12,13 @@ I was also told by recruiter that a dark mode is a plus, however I have not impl
 
 ## ! [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 Just clone the repo from github into android studio and you should be good to go :smile:
-You can mock, all the three api responses - failure, success and empty state from settings by clicking on nav icon.
+
+You can mock, all the three api responses - failure, success and empty state from settings by clicking on nav icon. :smirk:
 
 #### Other
 Unit tests are added as required
-I have also recently worked on Jetpack Compose and could have done this project using it. :smirk:
+
+I have also recently worked on Jetpack Compose and could have done this project using it. 
 
 ## Tech
 - [Kotin] - base code
