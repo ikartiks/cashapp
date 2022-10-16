@@ -17,9 +17,8 @@ android {
         minSdkVersion 21
         targetSdkVersion 33
         multiDexEnabled true
-        versionCode = 62
-        versionName = "2.122"
-        testInstrumentationRunner "com.kartik.grevocab.bootstrap.KoinTestRunner"
+        versionCode = 1
+        versionName = "1"
 
         //https://developer.android.com/jetpack/androidx/releases/room#compiler-options
         javaCompileOptions {

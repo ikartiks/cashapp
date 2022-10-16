@@ -8,6 +8,6 @@ class MockResProvider : ResProvider {
     }
 
     override fun getColor(color: Int): Int {
-        return R.color.browser_actions_divider_color
+        return R.color.colorAccent
     }
 }

@@ -10,7 +10,7 @@ import com.kartik.grevocab.utility.CurrencyUtils
 import com.kartik.grevocab.utility.LoaderState
 import org.koin.core.component.KoinComponent
 
-class FragmentStocksViewModel(private val preferences: Preferences, private val currencyUtils: CurrencyUtils, val stocksRepo: StocksRepo) : ViewModel(), KoinComponent {
+class FragmentStocksViewModel(private val preferences: Preferences, private val currencyUtils: CurrencyUtils, private val stocksRepo: StocksRepo) : ViewModel(), KoinComponent {
 
     val loaderLiveData = SingleLiveEvent<LoaderState>()
 

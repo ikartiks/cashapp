@@ -30,11 +30,7 @@ fun getEmptyStocks() = StockDisplay(
 )
 
 private fun getDateTimeFromEpocLongOfSeconds(epoc: Long): String? {
-    try {
-        val date = Date(epoc * 1000)
-        val formatter = SimpleDateFormat("dd/MM/yyyy HH:mm")
-        return formatter.format(date)
-    } catch (e: Exception) {
-        return e.toString()
-    }
+    val date = Date(epoc * 1000)
+    val formatter = SimpleDateFormat("dd/MM/yyyy HH:mm")
+    return formatter.format(date)
 }

@@ -38,10 +38,7 @@ object FileReader {
      * So your data gets parsed same way.
      * */
     fun getGson(): Gson {
-        val builder = GsonBuilder()
-        // needed only for tests not in retrofitConverterFactory handles it.
-        builder.registerTypeAdapter(Boolean::class.java, BooleanTypeAdapter())
-        return builder.create()
+        return GsonBuilder().create()
     }
 
     /**

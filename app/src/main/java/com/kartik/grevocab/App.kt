@@ -6,7 +6,6 @@ import com.kartik.grevocab.base.AndroidResProvider
 import com.kartik.grevocab.base.ResProvider
 import com.kartik.grevocab.repo.StocksRepo
 import com.kartik.grevocab.utility.CurrencyUtils
-import com.kartik.grevocab.vm.FragmentSplashViewModel
 import com.kartik.grevocab.vm.FragmentStocksViewModel
 import org.koin.android.ext.koin.androidContext
 import org.koin.androidx.viewmodel.dsl.viewModel
@@ -21,14 +20,13 @@ class App : MultiDexApplication() {
 
         startKoin {
             androidContext(this@App)
-            modules(apiModule, myModule)
+            modules(apiModule, appModule)
         }
     }
 }
 
-val myModule = module {
+val appModule = module {
 
-    viewModel { FragmentSplashViewModel(get(), get()) }
     viewModel { FragmentStocksViewModel(get(), get(), get()) }
 
     single { CurrencyUtils() }
