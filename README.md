@@ -27,5 +27,6 @@ I have also recently worked on Jetpack Compose and could have done this project 
 - [Lotties] - great UI animations for modern  apps
 
 #### Play back
-![Alt Text](app.gif)
+<img src="appy.gif" width="300px" />
+
 
