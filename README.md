@@ -20,8 +20,12 @@ Unit tests - ApiServiceTest, FragmentStocksViewModelTest, StocksRepoTest
 
 I have also recently worked on Jetpack Compose and could have done this project using it.
 
-## Tech
+#### Tech
 - [Kotin] - base code
 - [Coroutines] - anything async
 - [Retrofit] -network layers
 - [Lotties] - great UI animations for modern  apps
+
+#### Play back
+![Alt Text](app.gif)
+
